@@ -1,0 +1,34 @@
+node_modules
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# TypeScript build output
+dist
+build
+
+# Local environment files
+.env
+.env.*
+
+# Miscellaneous
+.DS_Store
+*.md
+
+# IDE and editor directories/files
+nodemon.json
+.vscode
+.idea
+.github
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Docker-related files (if you don’t want these inside the image)
+.dockerignore
+Dockerfile
